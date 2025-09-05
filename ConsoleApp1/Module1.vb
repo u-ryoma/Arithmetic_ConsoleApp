@@ -6,18 +6,7 @@ Module Module1
 
     Sub Main()
 
-        'Dim Name As String
-        'Dim Age As Integer
-
-
-
-        'Console.WriteLine("Enter Your Name: ")
-        'Name = Console.ReadLine()
-        'Console.WriteLine("Enter your age: ")
-        'Age = Console.ReadLine()
-        'Console.WriteLine("Enter your ")
-
-        'Console.WriteLine("Hello " + Name + " " + CStr(Age) + " Years Old")
+        
 
         Dim num1 As Integer
         Dim num2 As Integer
