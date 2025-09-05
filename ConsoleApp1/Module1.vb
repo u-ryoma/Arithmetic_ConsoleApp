@@ -10,7 +10,6 @@ Module Module1
 
         Dim num1 As Integer
         Dim num2 As Integer
-        Dim num3 As Integer
         Dim userAct As String
         Dim result As Double
         Dim optr As String
@@ -20,10 +19,7 @@ Module Module1
         num1 = Console.ReadLine()
         Console.WriteLine("Enter Second Number: ")
         num2 = Console.ReadLine()
-       
-
-      
-
+    
         Console.WriteLine("Do you want to calculate the number you enter?")
         userAct = Console.ReadLine()
 
