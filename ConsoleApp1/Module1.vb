@@ -36,7 +36,7 @@ Module Module1
             Case "1"
                 result = num1 + num2 
                 Console.WriteLine("The sum of number you pick is " + CStr(result))
-                Environment.Exit(0)
+                
             Case "2"
                 result = num1 - num2 
                 Console.WriteLine("The difference of number you pick is " + CStr(result))
