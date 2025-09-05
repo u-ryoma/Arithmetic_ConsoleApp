@@ -12,7 +12,7 @@ Module Module1
         Dim num2 As Integer
         Dim num3 As Integer
         Dim userAct As String
-        Dim result As Integer
+        Dim result As Double
         Dim optr As String
 
 
@@ -20,10 +20,9 @@ Module Module1
         num1 = Console.ReadLine()
         Console.WriteLine("Enter Second Number: ")
         num2 = Console.ReadLine()
-        Console.WriteLine("Enter Third Number: ")
-        num3 = Console.ReadLine()
+       
 
-        Console.WriteLine("The number you pick are: " + CStr(num1) + "," + CStr(num2) + "," + CStr(num3))
+      
 
         Console.WriteLine("Do you want to calculate the number you enter?")
         userAct = Console.ReadLine()
@@ -39,19 +38,19 @@ Module Module1
 
         Select Case optr
             Case "1"
-                result = num1 + num2 + num3
+                result = num1 + num2 
                 Console.WriteLine("The sum of number you pick is " + CStr(result))
                 Environment.Exit(0)
             Case "2"
-                result = num1 - num2 - num3
+                result = num1 - num2 
                 Console.WriteLine("The difference of number you pick is " + CStr(result))
                 Environment.Exit(0)
             Case "3"
-                result = num1 * num2 * num3
+                result = num1 * num2 
                 Console.WriteLine("The product of number you pick is " + CStr(result))
                 Environment.Exit(0)
             Case "4"
-                result = num1 / num2 / num3
+                result = num1 / num2 
                 Console.WriteLine("The quotient of number you pick is " + CStr(result))
                 Environment.Exit(0)
 
